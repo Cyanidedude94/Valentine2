@@ -76,3 +76,43 @@
     </script>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yay! ❤️</title>
+    <style>
+        body { 
+            text-align: center; 
+            font-family: 'Arial', sans-serif; 
+            margin-top: 100px;
+            background: url('https://source.unsplash.com/1920x1080/?romance,couple') no-repeat center center/cover;
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .heart {
+            font-size: 50px;
+            display: inline-block;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Yay! I'm so happy! 🎉❤️</h1>
+    <span class="heart">💖💖💖</span>
+    <p>Looking forward to our special day!</p>
+    <img src="https://source.unsplash.com/300x200/?love,kiss" alt="Love">
+</body>
+</html>
